@@ -1,0 +1,20 @@
+{
+  "name": "evaluacionnodejs",
+  "version": "1.0.0",
+  "description": "Evaluacion Next U - buscador Node Js",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/server.js"
+  },
+  "author": "Nicolas",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "file-system": "^2.2.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
+}
